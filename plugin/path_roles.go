@@ -60,7 +60,7 @@ func pathRole(b *RollbarBackend) []*framework.Path {
 					Required:    true,
 				},
 				"project_access_token_scopes": {
-					Type:        framework.TypeCommaStringSlice,
+					Type:        framework.TypeString,
 					Description: "Optional, List of project scopes to be applied to the access token",
 				},
 				"ttl": {
