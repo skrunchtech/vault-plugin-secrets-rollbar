@@ -6,7 +6,7 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/sdk/plugin"
-	backend "github.com/stiyyagura0901/vault-plugin-secrets-rollbar/plugin"
+	backend "github.com/skrunchtech/vault-plugin-secrets-rollbar/plugin"
 )
 
 func main() {

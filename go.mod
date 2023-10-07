@@ -1,4 +1,4 @@
-module github.com/stiyyagura0901/vault-plugin-secrets-rollbar
+module github.com/skrunchtech/vault-plugin-secrets-rollbar
 
 go 1.20
 

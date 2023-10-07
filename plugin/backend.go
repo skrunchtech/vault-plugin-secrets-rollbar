@@ -9,7 +9,7 @@ import (
 	"github.com/hashicorp/vault/sdk/logical"
 )
 
-var Version = "v1"
+var Version = "v0.0.1"
 
 // RollbarBackend defines a struct that extends the Vault backend
 // and stores the rollbar API Client
