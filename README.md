@@ -8,7 +8,7 @@ vault write rollbar/config \
 ```sh
 $ vault write rollbar/roles/test \
     project_id=$PROJECT_ID \
-    scopes=post_client_item,post_server_item,read,write \
+    project_access_token_scopes=post_client_item,post_server_item,read,write \
     ttl=1h \
     max_ttl=3h
 ```
